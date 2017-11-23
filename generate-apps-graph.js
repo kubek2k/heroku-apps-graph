@@ -73,7 +73,6 @@ heroku.get("/organizations/omni/apps")
         return Promise.all([appsDomains, appEnvs]);
     })
     .then(([appDomains, appEnvs]) => {
-        console.log(appDomains['api.omni.se']);
         console.log(R.map(envs => generateKnowsAbout(envs, appDomains))(appEnvs));
     })
     .catch(err => {
