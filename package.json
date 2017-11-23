@@ -1,0 +1,17 @@
+{
+  "name": "omni-apps-graph",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "heroku-client": "^3.0.3",
+    "invert-list-map": "^1.1.0",
+    "is-url": "^1.2.2",
+    "ramda": "^0.25.0"
+  }
+}
